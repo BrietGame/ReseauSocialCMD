@@ -1,0 +1,7 @@
+C:\Users\alexi\source\repos\ReseauSocial\ReseauSocial\obj\Debug\ReseauSocial.csproj.AssemblyReference.cache
+C:\Users\alexi\source\repos\ReseauSocial\ReseauSocial\obj\Debug\ReseauSocial.csproj.CoreCompileInputs.cache
+C:\Users\alexi\source\repos\ReseauSocial\ReseauSocial\bin\Debug\ReseauSocial.exe.config
+C:\Users\alexi\source\repos\ReseauSocial\ReseauSocial\bin\Debug\ReseauSocial.exe
+C:\Users\alexi\source\repos\ReseauSocial\ReseauSocial\bin\Debug\ReseauSocial.pdb
+C:\Users\alexi\source\repos\ReseauSocial\ReseauSocial\obj\Debug\ReseauSocial.exe
+C:\Users\alexi\source\repos\ReseauSocial\ReseauSocial\obj\Debug\ReseauSocial.pdb
