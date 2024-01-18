@@ -14,7 +14,8 @@ namespace ReseauSocial.Actions
             ConsoleUtils.consoleWhite("2. Ajouter un ami");
             ConsoleUtils.consoleWhite("3. Supprimer un ami");
             ConsoleUtils.consoleWhite("4. Créer une publication");
-            ConsoleUtils.consoleWhite("5. Retour");
+            ConsoleUtils.consoleWhite("5. Ajouter un compte utilisateur");
+            ConsoleUtils.consoleWhite("6. Retour");
             switch (Console.ReadLine())
             {
                 case "1":
@@ -30,11 +31,25 @@ namespace ReseauSocial.Actions
                     CreerPublication(publications, utilisateur);
                     break;
                 case "5":
+                    CreerUtilisateur(utilisateurs, utilisateur);
                     break;
+                case "6":
+
                 default:
                     ConsoleUtils.consoleRed("Veuillez choisir un menu valide");
                     break;
             }
+        }
+
+        public void CreerUtilisateur(List<Utilisateur> utilisateurs, Utilisateur utilisateur)
+        {
+            ConsoleUtils.consoleYellow("Veuillez créer un compte");
+            ConsoleUtils.consoleWhite("Nom : ");
+            string nom = Console.ReadLine();
+            ConsoleUtils.consoleWhite("Email : ");
+            string email = Console.ReadLine();
+            Utilisateur newUtilisateur = new Utilisateur(1, nom, email);
+            utilisateurs.Add(newUtilisateur);
         }
 
         private void AjouterAmi(List<Utilisateur> utilisateurs, Utilisateur utilisateur)
